@@ -1,1 +1,5 @@
-
+文章：.\orig.txt和文章：.\orig_0.8_add.txt,相似率为：0.85
+文章：.\orig.txt和文章：.\orig_0.8_del.txt,相似率为：0.79
+文章：.\orig.txt和文章：.\orig_0.8_dis_1.txt,相似率为：0.77
+文章：.\orig.txt和文章：.\orig_0.8_dis_10.txt,相似率为：0.77
+文章：.\orig.txt和文章：.\orig_0.8_dis_15.txt,相似率为：0.79
