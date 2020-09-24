@@ -93,12 +93,12 @@ def check(argv):
         similar = similarHash(f1, g1)  # 计算相似度
         real_similar = round(similar, 2)  # 保留小数
 
-        strs = "相似率为："
+        strs = f"文章：{argv[1]}和文章：{argv[2]},相似率为："
        
-        answer.write(strs + str(real_similar)+"\n")
+        answer.writelines(strs + str(real_similar)+"\n")
         f.close()
         g.close()
-        print("文章相似率为：%.2f\n" % real_similar)
+        print(f"文章：{argv[1]}和文章：{argv[2]},相似率为：%.2f\n" % real_similar)
     
         answer.close()  # 关闭文件
     except IndexError:
